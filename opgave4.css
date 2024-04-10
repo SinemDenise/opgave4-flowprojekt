@@ -1,0 +1,90 @@
+body{
+    background:black;
+}
+
+.navbar{
+    background-color: black;
+}
+
+a:hover{
+    background-color: gray;
+}
+
+.forside-billede{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.forside-billede-tekst{
+    font-size: 40px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.card{
+    background: rgb(10, 91, 141);
+    color: white;
+}
+
+.card-body-underside{
+    margin: 0 30px 25px 30px;
+    padding: 15px;
+}
+
+.btn{
+    background-color: rgb(124, 163, 187);
+    color: white;
+    border-color: white;
+}
+
+.btn, .btn-primary{
+    background-color: rgb(124, 163, 187);
+    border-color: white;
+}
+
+.btn-primary{
+    margin: 30px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer ul{
+    list-style: none;
+    padding-top: 15px;
+}
+
+
+/* Iphone SE */
+@media screen and (max-width: 375px) {
+    .forside-billede-tekst{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 16px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .forside-billede-tekst{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .forside-billede-tekst{
+        position: absolute;
+        top: 200px;
+        left: 15px;
+        font-size: 40px;
+    }
+}
